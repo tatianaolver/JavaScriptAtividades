@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ExercicioUm</title>
+</head>
+<body>
+    <h2>Validação de notas</h2>
+    <form >
+        <input onclick="validarNota()" type="submit" name="botao" value="Clique aqui para validar sua nota!">
+    </form>
+        
+    <script>
+        function validarNota(){
+    var nota = -1;
+    while (nota < 0 || nota > 10){
+    nota = parseInt(prompt("Insira uma nota de 0 a 10: " ))
+        if (nota >= 0 && nota <= 10) {
+        alert("Nota validada com sucesso!");
+        break
+    }
+        alert("Essa nota não é válida. Tente novamente.")
+    }
+    }
+    </script>
+
+    </body>
+</html>

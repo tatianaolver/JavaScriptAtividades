@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>ExercicioCinco</title>
+</head>
+<body>
+    <h1>Cálculo de População</h1>
+        <p>Insira a população do país A MENOR que a do país B e sua taxa de crescimento MAIOR 
+            que a do país B para calcular em quanto tempo ele ultrapassa a população do país B.</p>
+    <div id="form">
+        <label class="label" for="populacaoA">População do país A:</label>
+        <input class="input" id="populacaoA" type="number" placeholder="Insira a população do país A">
+        
+        <label class="label" for="populacaoB">População do país B:</label>
+        <input class="input" id="populacaoB" type="number" placeholder="Insira a população do país B" >
+
+        <label class="label" for="taxaA">Taxa de crescimento do país A:</label>
+        <input class="input" id="taxaA" type="number" placeholder="Insira a taxa de crescimento do país A">
+
+        <label class="label" for="taxaB">Taxa de crescimento do país B:</label>
+        <input class="input" id="taxaB" type="number" placeholder="Insira a taxa de crescimento do país B">
+
+        <button id="botaoCalculo" onclick="calculoPopulacao()">Calcular</button>
+
+    </div>
+</body>
+</html>

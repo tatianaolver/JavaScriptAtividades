@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(204, 179, 201, 0.717);
+    margin-top: 250px;
+    text-align: center;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+input{
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(161, 136, 145, 0.557);
+
+    cursor: pointer;
+    border: 1px solid #8f88889e;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input:hover{ 
+    background-color: #8d1785; 
+    transition: 0.3s;
+    opacity: 0.7;
+}
